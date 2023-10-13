@@ -53,7 +53,7 @@
     grid-template-columns: 23px auto 23px;
     grid-template-rows: 15px auto 15px;
 
-    svg {
+    .svg {
       width: 23px;
       height: 15px;
       display: block;
@@ -173,7 +173,7 @@
     text-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
     transform: translateZ(0);
 
-    span {
+    .span {
       background: linear-gradient(180deg, #ffe5c2 1%, #cdaf87 100%), #ffffff;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -210,7 +210,7 @@
         rgba(255, 255, 255, 0) 100%
       );
 
-      div {
+      .div {
         inset: 0;
         background: radial-gradient(
           70% 100% at 50% 100%,
@@ -274,7 +274,7 @@
       mix-blend-mode: overlay;
       transform: matrix(1, 0, 0, -1, 0, 0);
 
-      div {
+      .div {
         height: 1px;
         bottom: 0;
         background: radial-gradient(
